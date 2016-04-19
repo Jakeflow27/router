@@ -1,0 +1,31 @@
+{
+  "name": "router",
+  "version": "0.0.0",
+  "description": "Add remove proxies and routes with nginx",
+  "main": "router.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "node",
+    "router",
+    "proxy",
+    "nginx"
+  ],
+  "author": "Jacob Reiter <jakeflow@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "nginx-vhosts": "0.0.8",
+    "socket.io": "^1.4.5",
+    "socket.io-client": "^1.4.5"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Jakeflow27/router.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Jakeflow27/router/issues"
+  },
+  "homepage": "https://github.com/Jakeflow27/router"
+}
